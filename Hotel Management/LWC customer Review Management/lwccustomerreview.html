@@ -1,0 +1,26 @@
+<template>
+        <lightning-card title="Customer Review Form" icon-name="standard:survey">
+                <lightning-record-edit-form
+                object-api-name={ObjectName}
+                field-names={FieldName}
+                onsuccess={HandleForm}>
+                <div class="slds-grid">
+                        <div class="slds-col slds-size_1-of-2">
+                                <lightning-input-field field-name={ContactField} ></lightning-input-field>
+                                <lightning-input-field field-name={question1} ></lightning-input-field>
+                                <lightning-input-field field-name={question2} ></lightning-input-field>
+                                <lightning-input-field field-name={question3} ></lightning-input-field>
+                                <lightning-input-field field-name={question4} ></lightning-input-field>
+                                <lightning-input-field field-name={question5} ></lightning-input-field>
+                                <lightning-input-field field-name={question6} ></lightning-input-field>
+                                <lightning-input-field field-name={question7} ></lightning-input-field>
+                                <lightning-input-field field-name={question8} ></lightning-input-field>
+                                <lightning-input-field field-name={question9} ></lightning-input-field>
+                                <lightning-input-field field-name={question10} ></lightning-input-field>
+
+                        </div>
+                </div>
+                <lightning-button type="submit" variant="brand" label="Create review    "></lightning-button>
+                </lightning-record-edit-form>
+        </lightning-card>
+</template>
